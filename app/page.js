@@ -59,7 +59,7 @@ export default function Page() {
     return (
         <main style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
             <header>
-                <h1>Where's the server?</h1>
+                <h1>Where&apos;s the server?</h1>
             </header>
             <App /> {/* Render the App component here */}
         </main>
