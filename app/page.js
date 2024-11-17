@@ -24,7 +24,7 @@ const App = () => {
 
     const createPopup = () => {
         const newPopup = {
-            message: "Join us in Warframe!",
+            message: "Is the server up?",
             position: {
                 x: Math.random() * window.innerWidth,
                 y: Math.random() * window.innerHeight
@@ -51,7 +51,7 @@ const App = () => {
 export default function Page() {
     useEffect(() => {
         const intervalId = setInterval(() => {
-            alert("Warframe!");
+            alert("Is the server up?");
         }, 3000); // Change the interval as needed
         return () => clearInterval(intervalId); // Cleanup on unmount
     }, []);
@@ -59,7 +59,7 @@ export default function Page() {
     return (
         <main style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
             <header>
-                <h1>Wanna play Warframe?</h1>
+                <h1>Where's the minecraft server?</h1>
             </header>
             <App /> {/* Render the App component here */}
         </main>
